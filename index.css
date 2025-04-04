@@ -1,0 +1,87 @@
+#brand {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: brown;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-inline-start: auto;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+article {
+    margin-left: 2%;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+p {
+    margin: 10px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    width: 125px;
+}
+
+button {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1em;
+    background-color: brown;
+    color: white;
+    border: 0;
+    border-radius: 11%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    flex-grow: 1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote{
+    margin: 2px;
+}
+
+.testimonial {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+}
